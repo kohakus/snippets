@@ -132,6 +132,6 @@ int main() {
     da2 = da1;
     showInfo(da1);
     showInfo(da2);
-    std::cout << "da1-front: " << da2[0] << ", da1-back: " << da2[da2.size()-1] << std::endl;
+    std::cout << "da2-front: " << da2[0] << ", da2-back: " << da2[da2.size()-1] << std::endl;
     return 0;
 }
